@@ -1,0 +1,25 @@
+---
+title: "Making PDF_tinytex"
+author: "Tyra LG"
+date: '2022-06-29'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r, eval=FALSE}
+install.packages("tinytex")
+library(tinytex)
+install_tinytex()
+```
+
+
+eval=FALSE betyr do not evaluate this chunk of code
+
+
+Always pull then commit then push.
+
+--

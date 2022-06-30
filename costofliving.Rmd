@@ -1,0 +1,50 @@
+---
+title: "Day 3-Task"
+author: "Tyra LG"
+date: '2022-06-29'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+
+costofliving <- read.csv("C:/Users/tyrag/OneDrive - Universitetet i Oslo/ISSSV1337/costofliving.csv")
+```
+
+```{r}
+#install.packages("janitor")
+library(janitor)
+
+costofliving_clean <- costofliving %>% 
+  clean_names()
+
+```
+
+
+## Tidyverse functions
+
+- select
+- filter
+- mutate
+- rename
+- group_by
+- summerise
+
+```{r}
+costofliving_clean %>% 
+  select(cost_of_living_index, groceries_index)
+```
+
+Select takes variables, filter takes rows?
+
+
+```{r}
+costofliving_clean %>%
+  filter(cost_of_living_index < 100)
+  
+```
+

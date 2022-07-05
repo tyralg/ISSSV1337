@@ -1,0 +1,44 @@
+---
+title: "Data som trengs"
+author: "Tyra LG"
+date: '2022-07-05'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### Kategorier:
+
+- Arbeid, lønn og utdanning
+- Befolkning og bolig
+- Helse og samfunn
+- Miljø og transport
+- Næringsliv og teknologi
+- Økonomi
+
+
+### Ting å se på:
+
+- Hvilken lov som brukes (utdatert innhold?)
+- Om alle underkategorier er fylt ut
+    - Definisjoner
+    - Administrative opplysninger
+    - Bakgrunn
+    - Produksjon
+    - Nøyaktighet og pålitelighet
+- Se om det er forskjell på seksjonene om hvem som fyller ut hva.
+    
+- En oversikt over statistikker som refererer til Klass5 (https://www.ssb.no/klass/).
+  - Prosentvis overordnet og under hver seksjon
+
+
+
+
+### Eventuelt:
+- Forskjell på språk (bokmål, nynorsk og engelsk)
+- Forskjellen på "ikke relevant" og ikke fylt ut.
+- Bruke internet archive til å se på dato for publisering a statistikk og av "om statistikken"
+- Hvilke metoder blir brukt i forskjellige seksjoner (feks sesongjustering).
